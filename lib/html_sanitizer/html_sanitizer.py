@@ -2,7 +2,7 @@ import abc
 from copy import deepcopy
 from typing import Dict, Set
 from lxml.html import fromstring, tostring
-from lxml.html.clean import Cleaner
+from lxml_html_clean import Cleaner
 from lxml.html.defs import safe_attrs
 from core.exception import AlertException
 from .allowed_dict import *
