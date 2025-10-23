@@ -115,7 +115,7 @@ async def main_middleware(request: Request, call_next):
         except ProgrammingError as e:
             context = {
                 "request": request,
-                "errors": "DB 테이블 또는 설정정보가 존재하지 않습니다. 설치를 다시 진행해 주세요.",
+                "errors": "DB table or configuration information does not exist. Please proceed with the installation again.",
                 "url": "/install"
             }
             return template_response("alert.html", context, 400)
