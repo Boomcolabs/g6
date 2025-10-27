@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Git
+.git/
+.gitignore
+.gitattributes
+.github/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Documentation
+README.md
+LICENSE
+
+# Local data (will be mounted as volume in production)
+data/
+
+# SQLite database (if using external DB)
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
